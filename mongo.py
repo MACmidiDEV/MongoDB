@@ -22,7 +22,7 @@ def mongo_connect(url):
 # Configure function to QUERY DB with params        
 conn = mongo_connect(MONGODB_URI)
 coll = conn[DBS_NAME][COLLECTION_NAME]
-# run calls to DB below
+# run calls to DB below.
 
 # QUERY calls to DB 
 documents = coll.find()

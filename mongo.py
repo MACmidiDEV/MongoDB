@@ -29,3 +29,5 @@ documents = coll.find()
 # displays querys from DB
 for doc in documents:
     print(doc)
+    
+    
